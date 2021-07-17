@@ -1,0 +1,49 @@
+:root{
+    --base: #ffc600;
+    --spacing: 10px;
+    --blur: 2px;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    margin: 0 auto;
+}
+
+html{
+    background-color: #141E61;
+    color: white;
+}
+
+.heading{
+    text-align: center;
+    margin: 2rem;
+    font-family: 'Zen Tokyo Zoo', cursive;
+    font-size: 3rem;
+}
+
+.hl{
+    color: var(--base);
+}
+
+.controls{
+    margin: 2rem;
+    font-family: 'Nunito', sans-serif;
+    font-size: 5rem;
+    text-align: center;
+}
+
+.image{
+    display: block;
+    margin: 2rem auto;
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
